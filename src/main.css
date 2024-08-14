@@ -1,0 +1,21 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}

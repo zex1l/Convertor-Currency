@@ -1,0 +1,39 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+
+    >button {
+        background-color: #fff;
+        border: 1px solid #0267ff;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 10px 10px;
+        
+        width: 130px;
+    }
+
+    &_content {
+        overflow-y: scroll;
+        height: 200px;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        
+        >p {
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    }
+
+}
+
+.active {
+    display: block;
+}
+
+.disable {
+    display: none;
+}

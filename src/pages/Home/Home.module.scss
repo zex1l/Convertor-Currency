@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &__header {
+
+    }
+
+    &__currencys {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__form_values {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-top: 40px;
+
+        >input {
+            border: 1px solid #0010f6;
+            padding: 10px 15px;
+            border-radius: 20px;
+        }
+    }
+
+    .currency__code {
+        margin-top: 60px;
+    }
+}

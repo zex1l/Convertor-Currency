@@ -1,0 +1,44 @@
+.header {
+    
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+
+    }
+
+    &__nav {
+
+        &_list {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            
+        }
+
+        &_item {
+            cursor: pointer;
+        }
+    }
+
+    &__valutes {
+        @media screen and (max-width: 778px) {
+            display: none;
+        }
+        &_list {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            
+        }
+
+        &_item {
+            display: flex;
+            gap: 10px;
+        }
+    }
+}
